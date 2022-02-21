@@ -34,7 +34,7 @@ export default {
       try {
         const handler = await init();
         const userAddress = await handler.getSignerAddress();
-        const contract = await handler.getContract("DAO what");
+        const contract = await handler.getContract("0x2fA5EEFa9897aBf6e1C17fD0b5d999aB3a4b2d10");
 
         this.userAddress = userAddress;
         this.contract = contract;
