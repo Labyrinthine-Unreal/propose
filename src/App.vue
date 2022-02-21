@@ -1,6 +1,6 @@
 <template>
   <div className="App App-header">
-    <p>How much would you like to propose?</p>
+    <p>Enter how much LBRYS would you like to submit to Vote?</p>
     <input v-model="value" type="number" />
     <button @click="submit">mint</button>
   </div>
